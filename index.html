@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Princesa ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="particles"></div>
+
+<!-- Pantalla 1 -->
+<section id="welcome" class="screen active">
+
+    <h1>✨ Hay algo que llevo mucho tiempo queriendo decirte... ✨</h1>
+
+    <button onclick="openLetter()">
+        Abrir la Carta 💌
+    </button>
+
+</section>
+
+<!-- Carta -->
+<section id="letter" class="screen">
+
+    <div class="letter">
+
+        <h2>Mi princesa ❤️</h2>
+
+        <p>
+            Hay personas que llegan a nuestra vida y cambian todo para siempre.
+        </p>
+
+        <p>
+            Desde que te conocí, cada día se convirtió en un recuerdo que vale la pena guardar.
+        </p>
+
+        <p>
+            Gracias por cada sonrisa, cada llamada, cada momento y cada aventura que hemos compartido.
+        </p>
+
+        <p>
+            No sé exactamente qué nos depara el futuro, pero sí sé que quiero seguir descubriéndolo contigo.
+        </p>
+
+        <p>
+            Eres una de las personas más importantes en mi vida y quiero que sepas cuánto significas para mí.
+        </p>
+
+        <button onclick="showCounter()">
+            Continuar ✨
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Contador -->
+<section id="counterSection" class="screen">
+
+    <h2>⏳ Nuestro Tiempo Juntos</h2>
+
+    <div id="counter"></div>
+
+    <button onclick="showGallery()">
+        Ver Nuestros Recuerdos 📸
+    </button>
+
+</section>
+
+<!-- Galería -->
+<section id="gallery" class="screen">
+
+    <h2>Nuestros Recuerdos ❤️</h2>
+
+    <div class="gallery">
+
+        <img src="images/foto1.jpg">
+        <img src="images/foto2.jpg">
+        <img src="images/foto3.jpg">
+        <img src="images/foto4.jpg">
+        <img src="images/foto5.jpg">
+
+    </div>
+
+    <button onclick="showQuestion()">
+        Una Última Pregunta ❤️
+    </button>
+
+</section>
+
+<!-- Pregunta -->
+<section id="question" class="screen">
+
+    <h1>
+        Mi princesa...
+    </h1>
+
+    <h2>
+        ¿Quieres seguir escribiendo esta historia conmigo y acompañarme en todas las aventuras que nos esperan?
+    </h2>
+
+    <button class="yes-btn" onclick="showFinal()">
+        Sí ❤️
+    </button>
+
+</section>
+
+<!-- Final -->
+<section id="final" class="screen">
+
+    <h1>❤️ Gracias ❤️</h1>
+
+    <p class="final-text">
+        No importa lo que pase en el futuro, siempre voy a agradecer cada recuerdo que hemos construido juntos.
+    </p>
+
+    <p class="final-text">
+        Eres una persona increíble y me siento muy afortunado de tenerte en mi vida.
+    </p>
+
+    <p class="secret">
+        ✨ Mensaje Secreto ✨
+        <br><br>
+        Cada estrella del cielo tiene una historia...
+        pero mi favorita siempre será la nuestra.
+    </p>
+
+    <h2>
+        Con amor, tu niño ❤️
+    </h2>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
